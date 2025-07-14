@@ -75,9 +75,50 @@ main {
 
 footer {
 
-  .backgroundInfo {
-    background-image: url(../public/footer-bg.jpg);
-    width: 100%;
+  .custom-footer {
+    background: url('/footer-bg.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 300px;
+
   }
+
+  p {
+    color: rgb(95, 45, 45);
+    margin: 0;
+  }
+
+  .list-footer a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(147, 147, 147);
+  }
+
+
+  .custom-footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .custom-footer a:hover {
+    color: #ddd;
+    text-decoration: underline;
+  }
+
+  .btn {
+    border: 2px solid #2384fa;
+  }
+
+  .icon-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .footer-bottom {
+    background-color: #2e2e2e;
+    padding: 15px 0;
+    margin: 0px;
+  }
+
 
 }
