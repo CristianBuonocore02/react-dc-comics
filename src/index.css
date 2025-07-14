@@ -42,3 +42,33 @@ header {
   }
 
 }
+
+
+main {
+
+
+  justify-content: center;
+  padding: 2rem;
+  background-color: #2384fa;
+
+
+
+  .listMain {
+    padding: 10px;
+    padding-bottom: 3rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .listMain a {
+    text-decoration: none;
+    color: #ffffff;
+
+  }
+
+  .listMain img {
+    width: 50px;
+    height: 60px;
+    margin: 1.5rem;
+  }
+}
