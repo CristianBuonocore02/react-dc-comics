@@ -1,7 +1,46 @@
 export default function Footer() {
     return (
-        <header>
-            <h1>Prova Footer</h1>
-        </header>
+        <footer>
+            <div className="backgroundInfo">
+                <div className="row">
+                    <div className="col-6">
+                        <ul>
+                            <li>ff</li>
+                            <li>f</li>
+                            <li>ff</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
     )
 }
