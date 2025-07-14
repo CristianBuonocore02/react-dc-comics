@@ -1,7 +1,7 @@
 export default function Main() {
     return (
-        <header>
+        <main>
             <h1>Prova Main</h1>
-        </header>
+        </main>
     )
 }
