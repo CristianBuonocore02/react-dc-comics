@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
 
-        <footer className="custom-footer text-white">
+        <footer>
             <div className="container py-5">
                 <div className="row">
 
@@ -52,28 +52,28 @@ export default function Footer() {
                         <img src="public/dc-logo-bg.png" alt="Immagine Destra" className="img-fluid w-75" />
                     </div>
                 </div>
+            </div>
 
 
-                <div className="footer-bottom w-100">
-                    <div className="container">
-                        <div className="row align-items-center py-3">
-                            <div className="col-md-6">
-                                <button className="btn btn-primary">Iscriviti</button>
-                            </div>
-                            <div className="col-md-6 d-flex align-items-center justify-content-end">
-                                <h3 className="me-3 mb-0">FOLLOW US:</h3>
-                                <img src="public/footer-facebook.png" className="icon-img" alt="Icona 1" />
-                                <img src="public/footer-twitter.png" className="icon-img" alt="Icona 2" />
-                                <img src="public/footer-youtube.png" className="icon-img" alt="Icona 3" />
-                                <img src="/public/footer-pinterest.png" className="icon-img" alt="Icona 4" />
-                                <img src="public/footer-periscope.png" className="icon-img" alt="Icona 5" />
-                            </div>
+            <div className="footer-bottom w-100">
+                <div className="container">
+                    <div className="row align-items-center py-3">
+                        <div className="col-md-6">
+                            <button className="btn btn-primary">Iscriviti</button>
+                        </div>
+                        <div className="col-md-6 d-flex align-items-center justify-content-end">
+                            <h3 className="me-3 mb-0">FOLLOW US:</h3>
+                            <img src="public/footer-facebook.png" className="icon-img" alt="Icona 1" />
+                            <img src="public/footer-twitter.png" className="icon-img" alt="Icona 2" />
+                            <img src="public/footer-youtube.png" className="icon-img" alt="Icona 3" />
+                            <img src="/public/footer-pinterest.png" className="icon-img" alt="Icona 4" />
+                            <img src="public/footer-periscope.png" className="icon-img" alt="Icona 5" />
                         </div>
                     </div>
                 </div>
-
-
             </div>
+
+
         </footer>
 
     )

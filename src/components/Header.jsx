@@ -19,7 +19,10 @@ export default function Header() {
                 </div>
             </div>
             <div className="comingSooon">
-                <h4>-- content goes here -- </h4>
+                <div className="container">
+                    <h4>-- content goes here -- </h4>
+                </div>
+
             </div>
         </header>
     )

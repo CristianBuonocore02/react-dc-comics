@@ -38,7 +38,8 @@ header {
     background-color: black;
     color: white;
     padding: 3rem;
-    padding-left: 200px;
+    margin: 0;
+    max-width: 100%;
   }
 
 }
@@ -75,24 +76,30 @@ main {
 
 footer {
 
-  .custom-footer {
-    background: url('/footer-bg.jpg') no-repeat center center;
-    background-size: cover;
-    min-height: 300px;
+  background-image: url('/footer-bg.jpg');
+  background-position: top right, top right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 100px auto;
+  min-height: 300px;
+  color: white;
 
-  }
+
+
+
 
   p {
-    color: rgb(95, 45, 45);
+    color: rgb(255, 255, 255);
     margin: 0;
   }
 
-  .list-footer a {
-    list-style: none;
+  .list-footer li a {
     text-decoration: none;
     color: rgb(147, 147, 147);
   }
 
+  .list-footer {
+    list-style: none;
+  }
 
   .custom-footer a {
     color: white;
@@ -118,6 +125,9 @@ footer {
     background-color: #2e2e2e;
     padding: 15px 0;
     margin: 0px;
+    height: 150px;
+    align-items: center;
+    display: flex;
   }
 
 
