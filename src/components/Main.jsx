@@ -184,6 +184,9 @@ export default function Main() {
     return (
         <main>
             <div className="comingSoon">
+                <div className="jumbotron">
+                    <img src="public/jumbotron.jpg" alt="jumboton" />
+                </div>
                 <div className="container py-5">
                     <div className="row g-4">
                         {comics.map((comic) => (
