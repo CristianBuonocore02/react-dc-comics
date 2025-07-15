@@ -16,6 +16,7 @@ header {
 
   }
 
+
   .list a {
     padding: 10px;
     text-decoration: none;
@@ -34,23 +35,48 @@ header {
     height: 100px;
   }
 
-  .comingSooon {
-    background-color: black;
-    color: white;
-    padding: 3rem;
-    margin: 0;
-    max-width: 100%;
-  }
-
 }
 
 
 main {
 
+  .flexMain {
+    justify-content: center;
+    padding: 2rem;
+    background-color: #2384fa;
 
-  justify-content: center;
-  padding: 2rem;
-  background-color: #2384fa;
+  }
+
+  .comingSoon {
+    background-color: #2e2e2e;
+  }
+
+
+  .img-fluid {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .load-more-wrapper {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .load-more-btn {
+    padding: 10px 20px;
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .load-more-btn:hover {
+    background-color: #0369a1;
+  }
 
 
 
