@@ -1,3 +1,6 @@
+import ComicCard from "./ComicCard";
+
+
 export default function Main() {
 
     const comics = [
@@ -197,10 +200,9 @@ export default function Main() {
                                 <h6 className="text-white mt-2">{comic.title}</h6>
                             </div>
                         ))}
+
                     </div>
                 </div>
-
-
 
                 <div className="load-more-wrapper">
                     <button className="load-more-btn">LOAD MORE</button>
